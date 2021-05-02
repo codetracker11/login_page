@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            login
+        </title>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+            body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("bg_image.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: new time roman;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    padding-top: 70px;
+    margin:100px,0px,70px,0px;
+}
+.input-group{
+    margin-top: 30px;
+}
+.input-group-addon{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    color: black;
+}
+.form-control{
+    background: rgba(0, 0, 0, 0.1);;
+    border-radius: 5px;
+    border:5px;
+    border-bottom: 1px solid #ffc0cb;
+    font-size: 22px;
+    height: 40px;
+    padding: 21px;
+}
+input[type="checkbox"]{
+    margin-top: 23px;
+    color: black;
+    font-size: 15px;
+}
+p, small{
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+    
+}
+.btn-success{
+    height: 40px; 
+
+    margin:0 auto;
+    display: block;
+    width: 200px;
+
+}
+.buttonbox{
+    height: 100px;
+}
+h2{
+    font-size: 25px;
+    width: 40px;
+    border-radius: 100px;
+    margin:auto ;
+    margin-top: 50%;
+   
+}
+
+a{
+    text-decoration: none;
+}
+.btn-info{
+    margin-top: 20px;
+    
+    
+}
+.btn-primary{
+    margin-top: 20px;
+    
+}
+footer{
+    background: transparent;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    
+}
+.para{
+    color: white;
+}
+       </style>
+        
+ 
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-center">Login</h1>
+                <form class="form" method="POST" action="login_user.php">
+                <div class="input-group">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                    <input type="text" class="form-control" name="email" placeholder="Email id">
+                </div>
+                <div class="input-group">
+                    <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                    <input type="password" class="form-control" name="password" placeholder="password">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <input type="checkbox"><small>Remember me</small>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="#"><p>Forget Password?</p></a>
+                    </div>
+                   <div class="buttonbox">
+                    <button type="submit" class="btn btn-success" value="login_submit">
+                    Login    
+                    </button>
+                   </div>
+                           
+                       
+                   
+                </form>
+               
+                     <h2 class="text-center">OR</h2>
+                     
+                      <div class="row">
+                        <div class="col-md-6 text-center">
+                            <a href="#"><div class="btn btn-info">Facebook</div></a>
+                        </div>
+                           <div class="col-md-6 text-center">
+                             <a href="#"><div class="btn btn-primary">Google</div></a>
+                            </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+        </div>
+         <footer>
+    <div class="container">
+        <p class="para">
+            Copyright © Kohli Media LLP. All Rights
+Reserved | Contact Us: +91 95750 37200 | Aman Kumar Gupta
+        </p>
+        
+    </div>
+    </footer>
+      </body>
+</html>
+
+    
+  
+    
